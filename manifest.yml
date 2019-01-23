@@ -1,0 +1,6 @@
+---
+applications:
+- name: redis
+  path: target/redis.jar
+  services:
+      - redis-tile

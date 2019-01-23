@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: redis
+  cache:
+    type: redis
+endpoints:
+  actuator:
+    enabled: true
+management:
+  health:
+    redis:
+      enabled: true
